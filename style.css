@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0;
+    font-family: Open Sans;
+   
+    background-color: white;
+}
+h1, p{
+    margin: 0;
+}
+a{
+    color: white;
+    text-decoration: none;
+    margin-right: 60px;
+    font-size: 18px;
+}
+h1{
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+/* Шапка */
+
+header{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
+.header-inner{
+    display: flex;
+}
+.logoImg{
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    padding-left: 50px;
+}
+nav{
+    height: 122px;
+    display: flex;
+    align-items: center;
+    padding-left: 720px;
+}
+ul {
+    display: flex;
+    justify-content: right;
+    list-style: none; 
+    padding-left: 0; 
+}
+a{
+    font-weight: 900;
+}
+
+/*main*/
+
+.p2{
+   font-size: 25px;
+}
+.p3{
+    font-size: 20px;
+}
+.p4{
+font-size: 28px;
+}
+.pustota2{
+    height: 400px;
+}
+.pustota4{
+    height: 50px;
+}
+.comand{
+    width: 500px;
+    height: 540px;
+    display: flex;
+    margin-left: 70px;
+}
+.text{
+    display: flex;
+    margin-left: 70px;
+    font-size: 30px;
+}
+.text2{
+    display: flex;
+    margin-left: 780px;
+    font-size: 50px;
+    color: black;
+}
+.text3{
+    margin-top: 100px;
+    margin-left: 150px;
+}
+
+/* footer */
+
+footer{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    background-color: rgb(42, 40, 40);
+}
+.miniLogo{
+    width: 73px;
+    height: 43px;
+    float: left;
+    margin-right: 20px;
+}
+.textFooter {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+}
+.footerP{
+    color: #504D4D;
+    font-size: 20px;
+}
+.footerP1{
+    color: white;
+}
+
+/*Главная*/
+
+.Cublue{
+    margin-left: 450px;
+    width: 700px;
+    height: 600px;
+}
+.pustota3{
+    height: 90px;
+}
+.prepod{
+    margin-left: 400px;
+}
+.div1{
+    width: 994px;
+}
+.div2{
+    width: 994px;
+}
+.Moy{
+    color: rgb(7, 7, 7);
+    margin-left: 90px;
+}
+/*команды*/
+.comand1{
+    width: 460px;
+    height: 540px;
+    padding-left: 200px;
+}
+.comand2{
+    width: 460px;
+    height: 540px;
+    margin-left: 150px;
+}
+.dComand{
+    display: flex;
+}
+.dComand2{
+    display: flex;
+}
+.comH1{
+    margin-left: 610px;
+    font-size: 30px;
+}
+.comH2a{
+    margin-left: 330px;
+}
+.comH2r{
+    margin-left: 500px;
+}
+.comand3{
+    width: 560px;
+    height: 500px;
+}
+.text4{
+        margin-left: 100px;
+}
